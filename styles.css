@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden; /* Para evitar el desbordamiento horizontal por las animaciones */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f0ad4e; /* Un dorado como acento */
+}
+
+#sobre-nosotros h2, #servicios h2, #contacto h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sobre-nosotros ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#sobre-nosotros ul li {
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23f0ad4e" class="bi bi-check" viewBox="0 0 16 16"><path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/></svg>') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#contacto form .form-control {
+    border-radius: 0;
+}
+
+#contacto form .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+    border-radius: 0;
+    padding: 10px 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contacto form .btn-primary:hover {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
